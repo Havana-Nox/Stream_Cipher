@@ -13,7 +13,6 @@ public class Crypto extends javax.swing.JFrame {
     private JLabel seed_label;
     private JLabel file_label;
 
-    //Encryptor obj = new Encryptor();
     protected String filePath;
 
     public Crypto() {

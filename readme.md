@@ -68,6 +68,6 @@ Simple and elegant.
 - ✔️ Fully symmetric (same function for encryption and decryption)
 - ✔️ Suitable for small-scale learning, demos, and experimental encryption
 
-⚠️ **Note**: This implementation is for educational purposes only.  
-⚠️ It does **not** provide strong cryptographic guarantees and should **not** be used for securing sensitive data in real-world applications.
-⚠️ Data loss ⚠️ if you use wrong seed for decryption, you must use it again to return data to original encrypted state, then use correct seed to actually decrypt.
+⚠️ **Note**: This implementation is for educational purposes only.<br/>
+⚠️ It does **not** provide strong cryptographic guarantees and should **not** be used for securing sensitive data in real-world applications.<br/>
+⚠️ Data loss ⚠️ if you use wrong seed for decryption, you must use it again to return data to original encrypted state, then use correct seed to actually decrypt.<br/>

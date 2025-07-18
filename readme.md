@@ -1,6 +1,5 @@
 # 🔐 Stream Cipher
 
-> Lightweight Java implementation of a stream cipher encryption system.
 
 🧪 This project demonstrates simple symmetric encryption using a custom stream cipher written in Java.  
 It includes a basic GUI (Swing-based) for testing and visualizing the encryption/decryption process in real time.
@@ -10,7 +9,7 @@ It includes a basic GUI (Swing-based) for testing and visualizing the encryption
 ## ✨ Features
 
 - 📡 Custom stream cipher logic
-- 🧬 Real-time text encryption and decryption
+- 🧬 Real-time file encryption and decryption
 - 🖥️ Minimal Swing GUI interface
 - 🗜️ Byte-level data manipulation
 - 🔁 Symmetric key usage
@@ -21,10 +20,10 @@ It includes a basic GUI (Swing-based) for testing and visualizing the encryption
 
 ### Prerequisites
 
-- Java 8+ (tested on JDK 17)
+- Java 8+ (tested on JDK 21)
 - IntelliJ IDEA (recommended, but not required)
+- or just download JAR file and run it
 
-### Run locally
 
 ## 🧠 How It Works
 
@@ -55,8 +54,8 @@ This project demonstrates that principle through a custom-built cipher using Jav
 
 Assume we want to encrypt letter `A`, which is byte `65`, using a keystream byte `42`.
 
-65 (A) ^ 42 = 107 → encrypted byte
-107 ^ 42 = 65 → original byte (A)
+- 65 (A) ^ 42 = 107 → encrypted byte
+- 107 ^ 42 = 65 → original byte (A)
 
 
 Simple and elegant.
@@ -70,5 +69,5 @@ Simple and elegant.
 - ✔️ Suitable for small-scale learning, demos, and experimental encryption
 
 ⚠️ **Note**: This implementation is for educational purposes only.  
-It does **not** provide strong cryptographic guarantees and should **not** be used for securing sensitive data in real-world applications.
-
+⚠️ It does **not** provide strong cryptographic guarantees and should **not** be used for securing sensitive data in real-world applications.
+⚠️ Data loss ⚠️ if you use wrong seed for decryption, you must use it again to return data to original encrypted state, then use correct seed to actually decrypt.
